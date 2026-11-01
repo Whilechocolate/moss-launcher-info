@@ -1,6 +1,6 @@
 # Privacy and credential handling
 
-Last updated: 30 October 2026. This describes the current Moss Launcher 0.3.2 private preview implementation.
+Last updated: 1 November 2026. This describes the current Moss Launcher 0.4.0 private preview implementation.
 
 ## Microsoft and Minecraft accounts
 
@@ -33,3 +33,5 @@ The authorization network check sends anonymous requests to fixed service endpoi
 The launcher does not implement an analytics or advertising service. This GitHub information repository is hosted by GitHub, which processes visits and interactions under its own policies.
 
 For project questions, contact the repository maintainer through GitHub Issues. For application review, use the email provided privately in the review form. Never post credentials or credential cache files publicly.
+
+Java discovery examines configured paths and common runtime installation locations locally. Automatic Java installation downloads Temurin from Adoptium/GitHub, verifies its published checksum, and extracts it into the launcher data directory without changing system PATH. Optional community links open MC百科, Bilibili or MCBBS in the system browser. These providers receive the requested URL and any search terms the user chooses to open.
