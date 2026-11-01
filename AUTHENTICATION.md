@@ -26,7 +26,7 @@ The launcher returns a verified Minecraft identity only after the profile and en
 
 ## Current status
 
-As of 30 October 2026, the Microsoft OAuth, Xbox Live and XSTS steps have succeeded in a user test. Minecraft Services returns HTTP 403 with `Invalid app registration`. The application has not obtained Minecraft API approval. This repository supplies information for the approval request; it does not claim that approval has been granted or that authenticated game launch has been fully verified.
+On 1 November 2026, the maintainer supplied an AppID review approval notification and confirmed successful Microsoft/Minecraft authentication, Minecraft game launch, and resource installation. The earlier HTTP 403 application-registration block is resolved for this client ID. This records the maintainer's successful user test; it does not imply every Minecraft release, loader or mod combination has been tested.
 
 The launcher displays the failing service stage and sanitized status information. Browser completion alone is not treated as Minecraft authentication success. Signing in is never replaced by another launcher's application ID.
 
