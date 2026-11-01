@@ -4,7 +4,7 @@ A private, non-commercial Windows desktop launcher and local instance manager fo
 
 This public repository provides project information and screenshots for application review. The launcher is intended for personal use and sharing with a small group of friends. Executables, application source code, game files, user data, and authentication caches are not distributed through this repository.
 
-**Current status — 30 October 2026:** private preview, version 0.3.2. Microsoft OAuth, Xbox Live authentication, and XSTS authorization have succeeded in a user test. Minecraft Services currently rejects the application's registration with HTTP 403, `Invalid app registration`. Minecraft API approval has not yet been obtained; authenticated Minecraft sign-in is therefore not currently available through this application.
+**Current status — 1 November 2026:** private preview, version 0.4.0. The maintainer has received Minecraft application approval and reports successful Microsoft/Minecraft sign-in, game launch, and modpack/mod installation. Version 0.4.0 adds installation-time game preparation with visible progress, Java detection and Temurin installation, resource-version selection, and clearer local-folder management. Individual loader and mod combinations still require their own compatibility testing.
 
 ## Application identity
 
@@ -33,7 +33,7 @@ The client ID identifies this application and is not an account password or API 
 - View surface terrain from existing local world region files. This does not generate unexplored terrain from a seed alone.
 - Use an experimental, manually paired friend connection over WebRTC/TCP. It is disabled in the launcher's offline mode; cross-network connectivity is not guaranteed.
 
-Some features are experimental. Declared mod compatibility checks do not guarantee that every mod combination runs correctly. A complete authenticated game launch remains to be verified after API approval.
+Some features are experimental. Declared mod compatibility checks do not guarantee that every mod combination runs correctly. Authenticated game launch has been reported successful by the maintainer.
 
 ## Why Minecraft API access is requested
 
@@ -73,6 +73,6 @@ For application-review correspondence, use the contact email supplied privately 
 
 ## 中文说明
 
-苔原 MOSS 是供个人和少量好友使用的非商业 Windows Minecraft Java 启动器。本仓库仅公开项目说明与界面截图，供了解项目及应用审核使用；程序与源码继续私下保存。目前 Microsoft 与 Xbox 授权步骤已通过用户测试，Minecraft API 准入尚未取得，正版登录在 Minecraft 服务处返回 HTTP 403。这里不宣称已经获得官方批准。
+苔原 MOSS 是供个人和少量好友使用的非商业 Windows Minecraft Java 启动器。本仓库仅公开项目说明与界面截图，供了解项目及应用审核使用；程序与源码继续私下保存。维护者已收到 Minecraft 应用准入批准，并于 2026-11-01 确认正版登录、游戏启动及资源安装成功。应用准入不表示本产品属于官方产品或获得产品背书。
 
 Moss Launcher is an independent project. It is not an official Minecraft product and is not approved by or associated with Mojang or Microsoft. Minecraft is a trademark of Mojang/Microsoft.
